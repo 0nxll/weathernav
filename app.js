@@ -19,7 +19,7 @@ let weather = {
         document.querySelector(".windWeather").innerText = "Wind Speed: " + speed + "km/h";
         
 
-        document.querySelector(".card").style.backgroundImage = "url('https://source.unsplash.com/1366x766/?" + name + "')";
+        document.querySelector(".card").style.backgroundImage = "url('https://source.unsplash.com/600x800/?" + name + "')";
         
         document.querySelector(".card").classList.remove("loadingScreen");
         
