@@ -1,0 +1,99 @@
+@media screen and (min-width: 600px) { 
+
+    
+    .weatherContainer {
+        margin: 0 5%;
+        width: 60%;
+        
+    }
+
+}
+
+@media (min-width: 601px) and (max-width: 1366px) { 
+
+    .mainPage {
+        margin: 2% 0 0 0;
+    }
+
+    .buttonSearch {
+        width: auto;
+    }
+
+    
+
+
+    .weatherContainer {
+        margin: 0 5%;
+        width: 60%;
+        
+    }
+
+    .cityWeather {
+        font-size: 1.5rem;
+    }
+    .tempWeather {
+        font-size: 1.2rem;
+
+    }
+    .descWeather {
+        font-size: 1.2rem;
+
+    }
+    .weatherInfo img {
+        max-width: 70px;
+    }
+    .humiWeather {
+        font-size: 1.2rem;
+
+    }
+    .windWeather {
+        font-size: 1.2rem;
+
+    }
+
+}
+
+@media screen and (min-width: 1367px) { 
+    .mainPage {
+        margin: 15vh 0;
+    }
+    
+    .weatherContainer {
+        margin: 0 5%;
+        width: 70%;
+        
+    }
+
+
+
+    .weatherContainer {
+        margin: 0 5%;
+        width: 60%;
+        
+    }
+
+    .cityWeather {
+        font-size: 2rem;
+    }
+    .tempWeather {
+        font-size: 1.5rem;
+
+    }
+    .descWeather {
+        font-size: 1.5rem;
+
+    }
+    .weatherInfo img {
+        max-width: 90px;
+    }
+    .humiWeather {
+        font-size: 1.5rem;
+
+    }
+    .windWeather {
+        font-size: 1.5rem;
+
+    }
+
+
+}

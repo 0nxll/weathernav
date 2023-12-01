@@ -1,0 +1,165 @@
+body {
+    background-color: #000000;
+}
+
+input {
+    box-sizing: border-box;
+    width: 90%;
+}
+
+.mainPage {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 15vh 0 0 0;
+
+
+}
+
+.titleCont {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+    margin: 0vh 0 0vh 0;
+}
+
+    .titleApp {
+        font-size: 1.8rem;
+        margin: 1rem 0 0 0;
+    }
+    .titleMe {
+        font-size: 0.9rem;
+        margin: 0.5rem 0;
+    }
+
+
+.weatherContainer {
+    margin: 0vh 0%;
+}
+
+
+.searchBar {
+    border: #ed6f3f 1px solid;
+    display: flex;
+    justify-content: center;
+    height: 3rem;
+}
+
+    .barSearch {
+        background-color: #000000;
+        font-size: 1rem;
+
+        padding: 0.5rem;
+        border: #ed6f3f 1px solid;
+        width: 100%;
+    }
+
+    .barSearch:focus {
+        outline-width: 0;
+    }
+
+    .buttonSearch {
+        font-size: 1.2rem;
+        padding: 0.5rem;
+        background-color: #000000;
+        border: #ed6f3f 1px solid;
+        cursor: pointer;
+    }
+
+
+.card {
+    border: #ed6f3f 1px solid;
+    padding: 1rem;
+
+
+    background-image: url('/img/ASpot_Weather.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    background-color: rgba(0, 0, 0, 0.6);
+    background-blend-mode:darken;
+
+
+}
+
+.card.loadingScreen {
+    visibility: hidden;
+    max-height: 20px;
+    position: relative;
+
+}
+
+.card.loadingScreen::after {
+    visibility: visible;
+    content: "Loading...";
+    color: #ed6f3f;
+    position: absolute;
+    top: 1rem;
+    left:1rem;
+
+}
+
+    
+
+    .cityWeather {
+        text-align: right;
+        font-size: 1rem;
+        margin-top: 0.5rem;
+    }
+
+    .tempWeather {
+        text-align: right;
+        font-size: 0.9rem;
+        letter-spacing: 5px;
+    }
+
+
+    .descFlex {
+        display: flex;
+        align-items: center;
+        margin: 20% 3% 5% 3%;
+    }
+
+    .imgWeather {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+        .weatherInfo img {
+            height: auto;
+            max-width: 50px;
+        }
+
+    .descWeather {
+        font-size: 0.8rem;
+        margin: 0.5rem;
+        letter-spacing: 2px;
+        font-weight: bold;
+        text-transform: capitalize;
+    }
+
+    .humiWeather {
+        font-size: 0.8rem;
+        margin: 0.5rem;
+    }
+    
+    .windWeather {
+        font-size: 0.8rem;
+        margin: 0.5rem;
+    }
+
+
+    
+
+
+
+
+
+
