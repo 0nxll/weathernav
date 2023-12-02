@@ -12,7 +12,7 @@
 @media (min-width: 601px) and (max-width: 1366px) { 
 
     .mainPage {
-        margin: 2% 0 0 0;
+        margin: 0% 0 0 0;
     }
 
     .buttonSearch {
@@ -55,9 +55,12 @@
 
 @media screen and (min-width: 1367px) { 
     .mainPage {
-        margin: 15vh 0;
+        margin: 2vh 0 0 0;
     }
-    
+
+    .warningMe {
+        font-size: 1rem;
+    }    
     .weatherContainer {
         margin: 0 5%;
         width: 70%;

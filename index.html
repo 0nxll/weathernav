@@ -8,7 +8,14 @@
     <link rel="stylesheet" href="/css/styleMobile.css">
     <link rel="stylesheet" href="/css/styleDesktop.css">
     <link rel="stylesheet" href="/css/other.css">
+    <link rel="stylesheet" href="/css/anim.css">
 
+    <head>
+        <link
+          rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+        />
+      </head>
 
 </head>
 <body>
@@ -21,43 +28,49 @@
 
             <div class="titleCont">
 
-                <h1 class="titleApp colorA fontA">
+                <h1 class="titleApp colorA fontA animate__animated animate__fadeIn animate__fadeInDownBig">
                     Weather Api
                 </h1>
     
-                <h2 class="titleMe colorA fontC">
-                    @jhonlukecutay
+                <h2 class="titleMe colorA fontB animate__animated animate__fadeIn animate__fadeIn animate__delay-1s">
+                    @jhonlukecutay || 12/1/2023
+                </h2>
+                <h2 class="warningMe colorA fontC animate__animated animate__fadeIn animate__delay-2s">
+                    >images may take some time to load for the first time due to api's slow render.
                 </h2>
 
             </div>
 
 
-        <div class="weatherContainer">
+        <div class="weatherContainer animate__animated animate__fadeIn animate__fadeIn animate__delay-3s">
 
             <div class="searchBar">
-                <input type="text" class="barSearch colorB fontB">
-                <button class="buttonSearch colorA fontA">Search</button>
+                <input type="text" class="barSearch colorB fontB animate__animated animate__fadeIn animate__fadeIn s3-3" placeholder="type here...">
+                <button class="buttonSearch colorA fontA animate__animated animate__fadeIn animate__fadeIn s3-6">Search</button>
             </div>
     
             <div class="card loadingScreen" id="card">
-        
+
+                
                 <div class="weatherInfo">
-                    <div class="cityWeather colorA fontA">
-                        cagayan de oro
+                    <div class="cityWeather colorA fontA animate__animated animate__fadeIn animate__fadeIn s3-9">
+                        <p>cagayan de oro</p>
                     </div>
-                    <div class="tempWeather colorA fontC">
+                    <div class="tempWeather colorA fontA animate__animated animate__fadeIn s4-2">
                         51°
                     </div>
                     <div class="descFlex">
-                        <img src="" alt="image" class="imgWeather colorB fontB">
-                        <div class="descWeather colorB fontB">
+
+                        <img src="" alt="image" class="imgWeather colorB fontB animate__animated animate__fadeIn animate__fadeIn s4-5">
+
+                        <div class="descWeather colorB fontB animate__animated animate__fadeIn animate__fadeIn s4-5">
                             description
                         </div>
                     </div>
-                    <div class="humiWeather colorB fontC">
+                    <div class="humiWeather colorB fontC animate__animated animate__fadeIn animate__fadeIn s4-8">
                         humidity
                     </div>
-                    <div class="windWeather colorB fontC">
+                    <div class="windWeather colorB fontC animate__animated animate__fadeIn animate__fadeIn s5-1">
                         wind speed
                     </div>
                 </div>
