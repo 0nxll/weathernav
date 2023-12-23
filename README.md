@@ -1,2 +1,2 @@
-# weatherapi
+# weathernav
 simple api fetch
